@@ -16,6 +16,7 @@ public class Prueba {
                 then().extract().body().asString();
 
         System.out.println(body);
+        System.out.println("Este es un mensaje nuevo");
 
     }
 
